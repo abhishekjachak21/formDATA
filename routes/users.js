@@ -16,7 +16,7 @@ const usrSchema = mongoose.Schema(
 
 usrSchema.plugin(plm);
 
-module.exports = mongoose.model('usrs',usrSchema);
+module.exports = mongoose.model('newss',usrSchema);
 
 
 
